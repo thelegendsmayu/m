@@ -1,12 +1,12 @@
 module.exports = {
   Admins: ["UserID", "UserID"], //Admins of the bot
   ExpressServer: true, //If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
+  DefaultPrefix: "-", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
+  Token:"OTMyMzUzODEwMjQyODY3MjQw.YeRwJg.JTehhPgfrud-gC2yQBpXnjbA6W4", //Discord Bot Token
+  ClientID: "932353810242867240", //Discord Client ID
+  ClientSecret: "UN8MtMGiUf9FqoHiivJiV51MqP6D9gqa", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -28,15 +28,15 @@ module.exports = {
   //Lavalink
   Lavalink: {
     id: "Main",
-    host: "host name or IP",
+    host: "lava.link",
     port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "your password",
+    pass: "youshallnotpass",
     secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
 
   //Please go to https://developer.spotify.com/dashboard/
   Spotify: {
-    ClientID: process.env.Spotify_ClientID || "", //Spotify Client ID
-    ClientSecret: process.env.Spotify_ClientSecret || "", //Spotify Client Secret
+    ClientID: process.env.Spotify_ClientID || "a0411477df29451da9345c3fac634560", //Spotify Client ID
+    ClientSecret: process.env.Spotify_ClientSecret || "2d24494f7f82491a9df9eb20d873c45f", //Spotify Client Secret
   },
 };
